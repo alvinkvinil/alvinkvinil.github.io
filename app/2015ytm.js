@@ -153,7 +153,7 @@ APP_NEW_ERROR_SCREEN_expflag = localStorage.getItem("APP_NEW_ERROR_SCREEN");
 APP_CUSTOM_INVIDIOUS_URL_expflag = localStorage.getItem("APP_CUSTOM_INVIDIOUS_URL");
 if (APP_CUSTOM_INVIDIOUS_URL_expflag == undefined || APP_CUSTOM_INVIDIOUS_URL_expflag == "") {
   /*localStorage.setItem("APP_CUSTOM_INVIDIOUS_URL", "/* https://api.allorigins.win/raw?url= */https://yt.omada.cafe/");*/
-  localStorage.setItem("APP_CUSTOM_INVIDIOUS_URL", "https://api.codetabs.com/v1/proxy?quest=https://invidious.i234.cyou/");
+  localStorage.setItem("APP_CUSTOM_INVIDIOUS_URL", "https://invidious.f5.si");
   APP_CUSTOM_INVIDIOUS_URL_expflag = localStorage.getItem("APP_CUSTOM_INVIDIOUS_URL");
 }
 APP_DONT_AUTH_TO_INVIDIOUS_expflag = localStorage.getItem("APP_DONT_AUTH_TO_INVIDIOUS");
